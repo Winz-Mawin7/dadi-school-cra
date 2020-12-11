@@ -1,6 +1,6 @@
 export type Teacher = { id: string; firstname: string; lastname: string; age: string; phone: string; imageUrl: string };
 
-export const Teachers = [
+export const teachers = [
   { id: '28800', firstname: 'Laurine', lastname: 'Hoeger', age: '21', phone: '07916029188', imageUrl: 'http://picsum.photos/seed/1228/160/200' },
   { id: '84102', firstname: 'Athena', lastname: 'Feest', age: '36', phone: '08701393097', imageUrl: 'http://picsum.photos/seed/1270/160/200' },
   { id: '9331', firstname: 'Lamont', lastname: 'Senger', age: '33', phone: '08935025501', imageUrl: 'http://picsum.photos/seed/1691/160/200' },
