@@ -1,6 +1,6 @@
-import { Course, courses } from 'model/courses';
+import { Course } from 'model/courses';
 
-function removeCourseById(courseId: string): Array<Course> {
+function removeCourseById(courses: Array<Course>, courseId: string) {
   return courses.filter((course) => course.id !== courseId);
 }
 
